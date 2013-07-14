@@ -1,5 +1,5 @@
 require "ruby_design_tools/version"
 
 module RubyDesignTools
-  autoload :Proxy, 'ruby_design_tools/proxy'
+  autoload :Decorator, 'ruby_design_tools/decorator'
 end

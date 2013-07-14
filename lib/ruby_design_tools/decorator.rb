@@ -1,5 +1,5 @@
 module RubyDesignTools
-  class Proxy < BasicObject
+  class Decorator < BasicObject
     attr_reader :subject
 
     def initialize(subject)
